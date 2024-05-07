@@ -8,6 +8,9 @@ const array1 = [
     "elemento",
     "elemento",
 ];
+
+console.log(array1, array1.length);
+
 const array2 = [
     "elemento",
     "elemento",
@@ -16,7 +19,11 @@ const array2 = [
     "elemento",
     "elemento",
     "elemento",
+    "elemento",
+    "elemento",
 ];
+
+console.log(array2, array2.length);
 
 // DEFINISCO ELEMENTO DA AGGIUNGERE
 const elemento = "elemento";
@@ -33,6 +40,6 @@ if (array1.length<array2.length){
     }
 }
 
-console.log(array1);
-console.log(array2);
+console.log(array1, array1.length);
+console.log(array2, array2.length);
 
