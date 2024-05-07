@@ -18,10 +18,12 @@ const array2 = [
     "elemento",
 ];
 
+// DEFINISCO ELEMENTO DA AGGIUNGERE
 const elemento = "elemento";
 
+// CONTROLLO SU QUALE DEI DUE ARRAY E PIU LUNGO
 if (array1.length<array2.length){
-    
+    // CICLO FOR CHE USA LE LUNGHEZZE DEGLI ARRAY PER DEFINIRE QUANTI ELEMENTI AGGIUNGERE
     for (let buffer = array1.length; buffer<array2.length; buffer++){
         array1.push(elemento);
     }
@@ -34,5 +36,3 @@ if (array1.length<array2.length){
 console.log(array1);
 console.log(array2);
 
-// Aggiungi elementi casuali all’array che ha meno elementi,
-// fino a quando ne avrà tanti quanti l’altro.
