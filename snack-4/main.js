@@ -26,7 +26,7 @@ const array2 = [
 console.log(array2, array2.length);
 
 // DEFINISCO ELEMENTO DA AGGIUNGERE
-const elemento = "elemento";
+const elemento = "elemento aggiunto";
 
 // CONTROLLO SU QUALE DEI DUE ARRAY E PIU LUNGO
 if (array1.length<array2.length){
@@ -41,5 +41,5 @@ if (array1.length<array2.length){
 }
 
 console.log(array1, array1.length);
-console.log(array2, array2.length);
+console.log(array2, array2.length);                     
 
