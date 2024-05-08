@@ -1,2 +1,2 @@
 snack-a
-scrivere una funzione contaElementi() che, dato un array in input, restituisca il numero di elementi presenti nell'arraysnack
+scrivere una funzione contaElementi(array) che, dato un array in input, restituisca il numero di elementi presenti nell'array

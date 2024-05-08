@@ -9,10 +9,21 @@ const myArray = [
     "giornale"
 ]
 
+console.log(rimuoviDallaCoda(myArray));
 
-function rimuoviDallaCoda(array){
+
+// FUNZIONE NON CORRETTA MA EZ PZ
+function rimuoviDallaCoda2(array){
     array.length--;
     return array;
 }
 
-console.log(rimuoviDallaCoda(myArray));
+
+// FUNZIONE CORRETTA
+function rimuoviDallaCoda(array){
+    let buffer = new Array (array.length-1)
+    for (let i = 0; i < buffer.length; i++){
+        buffer[i] = array[i];
+    }
+    return buffer;
+}

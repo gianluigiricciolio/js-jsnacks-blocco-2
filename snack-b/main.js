@@ -11,10 +11,10 @@ const myArray = [
 
 stampaElenco(myArray);
 
-
+let myElem2 = "libri";
 const myElem=prompt('Inserisci elemento di cui si vuole un indice').toLowerCase();
 
-console.log(trovaIndice(myArray,myElem));
+console.log(trovaIndice(myArray,myElem2));
 
 
 // FUNZIONI
