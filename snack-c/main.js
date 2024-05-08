@@ -13,7 +13,8 @@ const myArray = [
 function stampa(array){
     let elementiConcatenati = "";
     for(let i = 0; i<array.length; i++){
-        elementiConcatenati+=array[i]+=", ";
+        if(i!=array.length-1) elementiConcatenati+=array[i]+=", ";
+        else elementiConcatenati+=array[i];
     }
     return elementiConcatenati;
 }
