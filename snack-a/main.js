@@ -8,11 +8,20 @@ const array = [
     "elemento",
 ]
 
-let counter = 0;
 
-for (let i of array){
-    counter++;
+function contaElementi(array){
+    return array.length;
 }
 
-console.log(counter);
+function contaElementi2(array){
+    let counter = 0;
+    for (let i of array){
+        counter++;
+    }
+    return counter;
+}
+
+console.log(contaElementi(array));
+console.log(contaElementi2(array));
+
 
